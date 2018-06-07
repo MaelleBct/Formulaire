@@ -1,0 +1,36 @@
+html{
+  background: linear-gradient(to right, #B5CBED 0%,#FE8A75 100%);
+  
+
+  div{
+    display:flex;
+    border-radius:100%;
+    background-color:rgba(255,255,255,0.4);
+    height:400px;
+    width:400px;
+    margin:auto;
+  }
+form{
+      margin:auto;
+  display :flex;
+  flex-direction:column;
+    color:white;
+  p{
+    background-color:rgba(255,255,255,0.4);
+    padding-left:15px;
+    border-radius:20px;
+  }
+  input{
+    background-color:transparent;
+    border:0px;
+      color:white;
+    line-height:30px;
+    padding-left:15px;
+     
+    }
+  }
+}
+[type=submit]{
+        background-color:purple;
+  border-radius:20px;
+      }
